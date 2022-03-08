@@ -23,7 +23,7 @@ public class Tabung extends Lingkaran implements MenghitungRuang{
 
     @Override
     public void LuasPermukaan() {
-        luas = 2*(getLuas()+(2*PHI*jari*tinggi));
+        luas = 2*getLuas()+(2*PHI*jari*tinggi);
         System.out.println("Luas permukaan balok= " + luas);
     }
 
